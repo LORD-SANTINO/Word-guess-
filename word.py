@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # Word list
-words = ['python', 'coding', 'snake']
+words = ['python', 'coding', 'snake', 'death', 'blood', 'happy' 'ocean', 'crane', 'paint', 'music']
 
 # Store active games per user
 games = {}

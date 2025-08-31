@@ -60,7 +60,7 @@ async def guess(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await show_word(update, user_id)
 
 def main():
-    app = Application.builder().token("YOUR_TELEGRAM_BOT_TOKEN").build()
+    app = Application.builder().token("8404374100:AAGQEvGMMerNmy5hXoKx0GmrC54LgqP4dD0").build()
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, guess))
